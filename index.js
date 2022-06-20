@@ -18,5 +18,8 @@ var peso_usuario = 77;
 //operacion matematica que dira el precio del usuario en marte
 peso_final = peso_usuario * g_marte / g_tierra;
 
+//Usamos la funcion parseInt() para convertir el resultado decimal, en un numero entero
+peso_final = parseInt(peso_final);
+
 //Retorno en el document: esta linea escribe algo en el documento html donde se encuentra vinculado
 document.write("tu peso en marte es: <b>"+peso_final+" kg </b>")
